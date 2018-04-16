@@ -10,7 +10,7 @@ var prefix = require('autoprefixer');
 var cssnano = require('cssnano');
 var connect = require('gulp-connect');
 
-var isDev = "development" == process.env.NODE_ENV;
+var isDev = "development" === process.env.NODE_ENV;
 console.log("--------------------------------->> " + isDev);
 console.log("--------------ENV---------------->> " + process.env.NODE_ENV);
 
